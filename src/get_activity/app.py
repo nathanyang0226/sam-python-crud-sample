@@ -15,7 +15,7 @@ def lambda_handler(message, context):
         }
 
     table_name = os.environ.get('TABLE', 'Activities')
-    region = os.environ.get('REGION', 'us-east-1')
+    region = os.environ.get('REGION', 'cn-northwest-1')
     aws_environment = os.environ.get('AWSENV', 'AWS')
 
     if aws_environment == 'AWS_SAM_LOCAL':
