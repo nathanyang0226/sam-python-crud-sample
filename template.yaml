@@ -26,7 +26,7 @@ Resources:
     Properties:
       CodeUri: src/create_activity/
       Handler: app.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.7
       Environment:
         Variables:
           TABLE: !Ref Table
@@ -46,7 +46,7 @@ Resources:
     Properties:
       CodeUri: src/get_activity/
       Handler: app.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.7
       Environment:
         Variables:
           TABLE: !Ref Table
@@ -66,7 +66,7 @@ Resources:
     Properties:
       CodeUri: src/list_activities/
       Handler: app.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.7
       Environment:
         Variables:
           TABLE: !Ref Table
@@ -86,7 +86,7 @@ Resources:
     Properties:
       CodeUri: src/update_activity/
       Handler: app.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.7
       Environment:
         Variables:
           TABLE: !Ref Table
@@ -106,7 +106,7 @@ Resources:
     Properties:
       CodeUri: src/delete_activity/
       Handler: app.lambda_handler
-      Runtime: python3.8
+      Runtime: python3.7
       Environment:
         Variables:
           TABLE: !Ref Table
